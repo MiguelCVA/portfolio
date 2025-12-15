@@ -22,6 +22,7 @@ export const Contact = () => {
 			<p className="text-gray-300 text-lg">{t("contact.description")}</p>
 			<div className="flex flex-wrap gap-4">
 				<Button
+					nativeButton={false}
 					size="lg"
 					className="gap-2"
 					render={<Link href={"mailto:miguelcanepa.pessoal@gmail.com"} />}
@@ -29,7 +30,15 @@ export const Contact = () => {
 					<IconMail className="h-5 w-5" />
 					{t("contact.email")}
 				</Button>
-				<Button size="lg" variant="outline" className="gap-2">
+				<Button
+					size="lg"
+					variant="outline"
+					className="gap-2"
+					nativeButton={false}
+					render={
+						<Link href={"https://github.com/MiguelCVA"} target="_blank" />
+					}
+				>
 					<IconBrandGithub className="h-5 w-5" />
 					GitHub
 				</Button>
@@ -37,6 +46,7 @@ export const Contact = () => {
 					size="lg"
 					variant="outline"
 					className="gap-2"
+					nativeButton={false}
 					render={
 						<Link
 							href={"www.linkedin.com/in/miguel-cânepa-08b92527a"}

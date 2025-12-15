@@ -3,10 +3,10 @@
 import { IconMenu } from "@tabler/icons-react"
 import { useLocale, useTranslations } from "next-intl"
 import { useEffect, useState, useTransition } from "react"
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 import { Link, usePathname, useRouter } from "@/i18n/navigation"
 import { cn } from "@/lib/utils"
 import { Button } from "./ui/button"
-import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet"
 
 export const Header = () => {
 	const t = useTranslations("navigation")

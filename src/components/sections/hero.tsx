@@ -28,6 +28,7 @@ export const Hero = () => {
 				</p>
 				<div className="flex gap-4 pt-4">
 					<Button
+						nativeButton={false}
 						size="lg"
 						className="gap-2"
 						render={<Link href={"mailto:miguelcanepa.pessoal@gmail.com"} />}
@@ -36,6 +37,7 @@ export const Hero = () => {
 						{t("hero.contact")}
 					</Button>
 					<Button
+						nativeButton={false}
 						size="lg"
 						variant="secondary"
 						className="gap-2"
