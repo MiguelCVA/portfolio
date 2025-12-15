@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import { Geist, Geist_Mono, Nunito_Sans } from "next/font/google"
 import "@/styles/globals.css"
+import { IntroAnimation } from "@/components/intro-animation"
 import { cn } from "@/lib/utils"
 
 const nunitoSans = Nunito_Sans({ variable: "--font-sans" })
@@ -35,6 +36,8 @@ export default async function LocaleLayout({
 				className={`${geistSans.variable} ${geistMono.variable} antialiased`}
 			>
 				{children}
+
+				<IntroAnimation />
 			</body>
 		</html>
 	)
