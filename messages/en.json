@@ -1,0 +1,118 @@
+{
+    "navigation": {
+        "ariaLabel": "Main navigation",
+        "home": "Home",
+        "about": "About",
+        "projects": "Projects",
+        "technologies": "Technologies",
+        "changeLanguage": "Change language"
+    },
+    "hero": {
+        "description": "Full-Stack Developer focused on Web Performance & Cloud.",
+        "contact": "Get in Touch",
+        "viewWork": "View My Work"
+    },
+    "about": {
+        "title": "About Me",
+        "paragraph1": "I'm a passionate Full-Stack Developer with expertise in building high-performance web applications. My focus is on creating scalable solutions that deliver exceptional user experiences.",
+        "paragraph2": "With a strong background in modern web technologies and cloud infrastructure, I help businesses transform their digital presence through innovative development practices.",
+        "experience": {
+            "title": "Years of Experience",
+            "value": "5+"
+        },
+        "projects": {
+            "title": "Technologies Mastered",
+            "value": "15+"
+        },
+        "clients": {
+            "title": "Areas of Focus",
+            "value": "Backend & Cloud"
+        }
+    },
+    "projects": {
+        "title": "Featured Projects",
+        "items": {
+            "project1": {
+                "title": "E-Commerce Platform",
+                "description": "High-performance e-commerce solution with real-time inventory management and payment integration.",
+                "tags": [
+                    "React",
+                    "Node.js",
+                    "PostgreSQL",
+                    "AWS"
+                ]
+            },
+            "project2": {
+                "title": "Analytics Dashboard",
+                "description": "Real-time data visualization platform for business intelligence and reporting.",
+                "tags": [
+                    "TypeScript",
+                    "D3.js",
+                    "FastAPI",
+                    "Redis"
+                ]
+            },
+            "project3": {
+                "title": "Mobile App API",
+                "description": "RESTful API serving millions of requests daily with 99.9% uptime.",
+                "tags": [
+                    "Go",
+                    "MongoDB",
+                    "Docker",
+                    "Kubernetes"
+                ]
+            }
+        }
+    },
+    "technologies": {
+        "title": "Technologies & Tools",
+        "frontend": {
+            "title": "Frontend",
+            "items": [
+                "React",
+                "TypeScript",
+                "Next.js",
+                "Tailwind CSS",
+                "Vite"
+            ]
+        },
+        "backend": {
+            "title": "Backend",
+            "items": [
+                "Node.js",
+                "Python",
+                "Go",
+                "PostgreSQL",
+                "MongoDB"
+            ]
+        },
+        "cloud": {
+            "title": "Cloud & DevOps",
+            "items": [
+                "AWS",
+                "Docker",
+                "Kubernetes",
+                "CI/CD",
+                "Terraform"
+            ]
+        },
+        "tools": {
+            "title": "Tools",
+            "items": [
+                "Git",
+                "VS Code",
+                "Figma",
+                "Postman",
+                "Linux"
+            ]
+        }
+    },
+    "contact": {
+        "title": "Let's Work Together",
+        "description": "I'm always interested in hearing about new projects and opportunities. Feel free to reach out!",
+        "email": "Email Me"
+    },
+    "footer": {
+        "copyright": "© {year} Miguel Cânepa. All rights reserved."
+    }
+}
