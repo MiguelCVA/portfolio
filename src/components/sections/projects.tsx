@@ -12,7 +12,7 @@ const PROJECTS = [
 		id: "project2",
 		titleKey: "projects.items.project2.title",
 		descriptionKey: "projects.items.project2.description",
-		tags: ["TypeScript", "D3.js", "FastAPI", "Redis"],
+		tags: ["TypeScript", "D3.js", "ClickHouse", "Redis"],
 	},
 	{
 		id: "project3",
