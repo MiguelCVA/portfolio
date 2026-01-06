@@ -60,6 +60,13 @@ export const Contact = () => {
 					LinkedIn
 				</Button>
 			</div>
+
+			<h1>
+				Email: <span className="font-bold">me@miguelcanepa.com</span>
+			</h1>
+			<h1>
+				Github: <span className="font-bold">MiguelCVA</span>
+			</h1>
 		</section>
 	)
 }
