@@ -31,7 +31,7 @@ export const Hero = () => {
 						nativeButton={false}
 						size="lg"
 						className="gap-2"
-						render={<Link href={"mailto:miguelcanepa.pessoal@gmail.com"} />}
+						render={<Link href={"mailto:me@miguelcanepa.com"} />}
 					>
 						<IconMail className="h-4 w-4" />
 						{t("hero.contact")}

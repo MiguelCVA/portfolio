@@ -27,7 +27,7 @@ export const Contact = () => {
 					nativeButton={false}
 					size="lg"
 					className="gap-2"
-					render={<Link href={"mailto:miguelcanepa.pessoal@gmail.com"} />}
+					render={<Link href={"mailto:me@miguelcanepa.com"} />}
 				>
 					<IconMail className="h-5 w-5" />
 					{t("contact.email")}
