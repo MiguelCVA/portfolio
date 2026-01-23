@@ -6,7 +6,7 @@ export const About = () => {
 	return (
 		<section
 			id="about"
-			className="mx-auto w-full max-w-7xl -translate-y-25 border border-white bg-background p-8 font-mono"
+			className="mx-auto w-full max-w-7xl border border-white bg-background p-8 font-mono"
 			aria-labelledby="about-title"
 		>
 			<h2 id="about-title" className="font-bold text-3xl">

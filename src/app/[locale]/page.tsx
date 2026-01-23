@@ -8,10 +8,12 @@ export default function Home() {
 	return (
 		<>
 			<Hero />
-			<About />
-			<Projects />
-			<Technologies />
-			<Contact />
+			<div className="-translate-y-25 space-y-5">
+				<About />
+				<Projects />
+				<Technologies />
+				<Contact />
+			</div>
 		</>
 	)
 }
