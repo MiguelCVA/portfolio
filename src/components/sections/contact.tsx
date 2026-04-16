@@ -51,7 +51,7 @@ export const Contact = () => {
 					nativeButton={false}
 					render={
 						<Link
-							href={"www.linkedin.com/in/miguel-cânepa-08b92527a"}
+							href={"https://www.linkedin.com/in/miguel-cânepa-08b92527a"}
 							target="_blank"
 						/>
 					}

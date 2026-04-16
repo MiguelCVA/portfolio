@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-	title: "Miguel Cânepa Portfolio",
+	title: "Miguel Cânepa | Portfolio",
 	description:
 		"Portfolio website of Miguel Cânepa, a software developer specializing in web development and modern technologies.",
 	icons: {
@@ -33,7 +33,7 @@ export default async function LocaleLayout({
 	return (
 		<html className={cn(nunitoSans.variable, "dark")}>
 			<body
-				className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+				className={`${geistSans.variable} ${geistMono.variable} font-mono antialiased`}
 			>
 				{children}
 
